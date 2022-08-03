@@ -7,8 +7,11 @@
 */
 
 public class Exercise_13_05 {
+    
     public static void main(String[] args) {
+        
         GeometricObject c1 = new Circle(4);
+        
         GeometricObject c2 = new Circle(5.3);
         
         GeometricObject largest = (Circle) GeometricObject.max(c1, c2);
